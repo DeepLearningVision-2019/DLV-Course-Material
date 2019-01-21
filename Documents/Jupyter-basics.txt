@@ -1,0 +1,20 @@
+In this case, "notebook" or "notebook documents" denote documents that contain both code and rich text elements, such as figures, links, equations, ... Because of the mix of code and text elements, these documents are the ideal place to bring together an analysis description, and its results, as well as, they can be executed perform the data analysis in real time.
+
+As a server-client application, the Jupyter Notebook App allows you to edit and run your notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where you can access it through the Internet.
+
+Latex for equations:
+
+	$$c = \sqrt{a^2 + b^2}$$
+
+Html:
+
+<tr>
+<td> <img src="" alt="" style="width: 500px;"/> </td>
+<td> <img src="" alt="" style="width: 500px;"/> </td>
+</tr>
+
+Markdown:
+
+	# Title
+
+	

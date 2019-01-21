@@ -1,0 +1,56 @@
+Install conda
+
+Check packages:
+
+	conda list
+
+Upgrade conda:
+
+	conda upgrade conda
+	conda upgrade --all
+
+Create env:
+
+	conda create -n env_name list of packages
+	conda create -n py3 python=3
+	conda create -n py python=3.3
+
+Enter env:
+
+	source activate my_env
+	(windows) activate my_env
+
+Install packages:
+
+	conda install package_name
+	conda install numpy
+	conda install numpy scipy pandas
+
+To uninstall:
+
+	conda remove package_name
+
+To update:
+
+	conda update package_name
+	conda update --all
+
+To search:
+
+	conda search *search term*
+
+To export env:
+
+	conda env export > environment.yaml
+
+To create from file:
+
+	conda env create -f environment.yaml
+
+To list env:
+
+	conda env list
+
+To remove env:
+
+	conda env remove -n env_name
